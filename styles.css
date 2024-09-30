@@ -3,11 +3,16 @@
     margin: 0;
 }
 
+#logo{
+    max-width: 100%;
+}
+
 #logoUCSD{
     position: sticky;
     top: 0;
     background-color: white;
 }
+
 
 #logoAthletics{
     background-color: rgb(245, 240, 230);
@@ -15,6 +20,14 @@
 
 #logoColleges{
     background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg");
+}
+
+#Section2{
+    color: white
+}
+
+#Section2P{
+    color: white;
 }
 
 ul {
@@ -62,4 +75,49 @@ li a:hover {
     color: white;
     max-height: 500px;
     overflow: scroll;
+}
+
+@media screen and (max-width: 800px) {
+    ul{
+        display: none;
+    }
+    #logo{
+        max-width: 75%;
+    }
+    h2{
+        font-size: 24px;
+        color: pink;
+    }
+    p{
+        font-size: 20;
+        color: pink;
+    }
+
+    #Section2{
+        font-size: 24px;
+        color: pink;
+    }
+
+    #Section2P{
+        font-size: 20px;
+        color:pink;
+    }
+
+    .wrapper{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 25px;
+        padding: 10px;
+        background-color: rgb(245, 240, 230)
+    }
+    
+    .wrapper > div{
+        text-align: left;
+        padding: 10px 10px;
+        float: left;
+        background-color: #182b49;
+        color: white;
+        max-height: 500px;
+        overflow: scroll;
+    }
 }
