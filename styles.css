@@ -3,6 +3,12 @@
     margin: 0;
 }
 
+#logoUCSD{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
 #logoAthletics{
     background-color: rgb(245, 240, 230);
 }
@@ -34,4 +40,26 @@ li a {
 li a:hover {
     background-color: #182b49;
     color: white;
+}
+
+#Section3{
+    background-color: rgb(245, 240, 230);
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 25px;
+    padding: 10px;
+    background-color: rgb(245, 240, 230)
+}
+
+.wrapper > div{
+    text-align: left;
+    padding: 10px 10px;
+    float: left;
+    background-color: #182b49;
+    color: white;
+    max-height: 500px;
+    overflow: scroll;
 }
