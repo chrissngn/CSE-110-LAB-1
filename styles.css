@@ -64,7 +64,7 @@ li a:hover {
     grid-template-columns: auto auto auto auto;
     gap: 25px;
     padding: 10px;
-    background-color: rgb(245, 240, 230)
+    background-color: rgb(245, 240, 230);
 }
 
 .wrapper > div{
@@ -73,8 +73,8 @@ li a:hover {
     float: left;
     background-color: #182b49;
     color: white;
-    max-height: 500px;
-    overflow: scroll;
+    max-height: 200px;
+    overflow: auto;
 }
 
 @media screen and (max-width: 800px) {
@@ -104,7 +104,7 @@ li a:hover {
         grid-template-columns: auto auto;
         gap: 25px;
         padding: 10px;
-        background-color: rgb(245, 240, 230)
+        background-color: rgb(245, 240, 230);
     }
     
     .wrapper > div{
@@ -114,6 +114,6 @@ li a:hover {
         background-color: #182b49;
         color: white;
         max-height: 500px;
-        overflow: scroll;
+        overflow: auto;
     }
 }
